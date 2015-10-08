@@ -4,7 +4,7 @@ int x, y, speed;
 float a1, a2 , hp ;
 void setup () {
   size(640,480) ;
-  x = -0;
+  x = 0;
   y = -640;
   speed = 0;
   img1 = loadImage("img/bg1.png");
