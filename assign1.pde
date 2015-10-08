@@ -1,5 +1,3 @@
-PImage img1, img2, img3, img4, img5, img6;
-int x, y, speed; 
 float a1, a2 , b ;
 void setup () {
   size(640,480) ;
