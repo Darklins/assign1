@@ -1,3 +1,9 @@
+ /* please implement your assign1 code in this file. */
+PImage img1, img2, img3, img4, img5, img6;
+int x, speed; 
+float a1, a2 , hp ;
+void setup () {
+  size(640,480) ;
   x = 0;
   speed = 0;
   img1 = loadImage("img/bg1.png");
