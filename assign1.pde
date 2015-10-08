@@ -20,8 +20,6 @@ void setup () {
  
 void draw() {
   
-  println(x);
-  println(y);
   image(img2,x,0);
   image(img1,y,0);
   
