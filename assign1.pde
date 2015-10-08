@@ -13,7 +13,7 @@ void setup () {
   img5 = loadImage("img/hp.png");
   img6 = loadImage("img/treasure.png");
   a1 = random(0,599);
-  a2 = random(10,431);
+  a2 = random(30,431);
   hp  = random(5,201);
 }
  
@@ -31,6 +31,6 @@ void draw() {
   image(img4,580,240);
   
   speed +=3;
-  x+=2;
+  x++;
 
 }
