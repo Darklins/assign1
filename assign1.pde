@@ -1,4 +1,3 @@
-/* please implement your assign1 code in this file. */
 PImage img1, img2, img3, img4, img5, img6;
 int x, y, speed; 
 float a1, a2 , hp ;
@@ -34,7 +33,7 @@ void draw() {
   speed +=3;
   x++;
   y++;
-  x= x-(x/640*1280);
-  y= y-(y/640*1280);
+  x= x-((x/640)*1280);
+  y= y-((y/640)*1280);
  
 }
