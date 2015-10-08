@@ -16,9 +16,7 @@ void setup () {
   a2 = random(30,431);
   hp  = random(5,201);
 }
- 
 void draw() {
-  
   image(img2,-640+(x+640)%1280,0);
   image(img1,-640+x%1280,0);
   
@@ -32,5 +30,4 @@ void draw() {
   
   speed +=3;
   x++;
-
 }
